@@ -13,3 +13,7 @@ cd audiocraft
 
 pip install -e .
 
+### dataset:
+download lmd_matched.zip from
+
+https://drive.google.com/drive/folders/1C_WTDoyQkgdFOiKKjqTZpYUrehkm72Vz?dmr=1&ec=wgc-drive-globalnav-goto
