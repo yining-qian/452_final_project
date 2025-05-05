@@ -182,7 +182,6 @@ Here are the key functions implemented in the notebook:
 * `extract_advanced_note_features(midi_file)`:
   → Similar to the above, but also extracts `note_name`, `octave`, `start_time`, `end_time` for richer analysis.
 
----
 
 #### **Tokenization**
 
@@ -192,28 +191,23 @@ Here are the key functions implemented in the notebook:
 * `TokenizerConfig`:
   → Defines tokenization settings (e.g., pitch range, beat resolution).
 
----
-
 #### **Data Preparation**
 
 * `SequenceDataset`:
   → A PyTorch dataset wrapper that segments tokenized sequences into fixed-length chunks for training.
 
----
 
 #### **Model**
 
 * `SymbolicMusicTransformer`:
   → Defines a Transformer-based model to generate symbolic music from REMI token sequences.
 
----
 
 #### **Training**
 
 * `train_model(model, train_loader, num_epochs=5, lr=1e-4, device='cuda')`:
   → Encapsulates the training loop with optimizer, loss function, and device management.
 
----
 
 #### **Music Generation**
 
